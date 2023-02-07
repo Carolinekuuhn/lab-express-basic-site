@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f45e7e;
+  overflow: hidden;
+}
+
+h1 {
+  color: #60003d;
+  /*font: "jaf-herb-condensed", serif;*/
+  font-family: "gorillaz";
+  text-align: center;
+}
+
+p {
+  font-family: "jaf-herb-condensed", serif;
+  color: white;
+  font-style: normal;
+  font-size: larger;
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.gif-logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bar-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+.img-size1 {
+  width: 240px;
+}
+
+.img-size2 {
+  width: 200px;
+}
+
+.img-size3 {
+  width: 240px;
+  opacity: 0.7;
+}
+.img-size4 {
+  width: 200px;
+}
+
+.noodle-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@font-face {
+  font-family: "gorillaz";
+  src: url("/font/gorillaz_1.ttf");
+}
+
+.header,
+a {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+
+.home-button {
+  color: #60003d;
+  /*font: "jaf-herb-condensed", serif;*/
+  font-family: "gorillaz";
+}
+
+.about-button {
+  color: #60003d;
+  font-family: "gorillaz";
+}
+
+.work-button {
+  color: #60003d;
+  font-family: "gorillaz";
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 250px;
+  margin: 30px;
+  margin-bottom: 5%;
+}
+
+.social-media {
+  justify-content: center;
+  display: flex;
+  margin-top: 7%;
+}
+
+.button-back {
+  background-color: transparent;
+  border: none;
+}
